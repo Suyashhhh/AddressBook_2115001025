@@ -10,8 +10,13 @@ builder.Services.AddDbContext<AddressBookContext>(options => options.UseSqlServe
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseSwagger();//added swagger
+app.UseSwaggerUI();
 
 // Configure the HTTP request pipeline.
 

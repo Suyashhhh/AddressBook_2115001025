@@ -10,7 +10,8 @@
         "dependencies": {
           "BusinessLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.36",
-          "Swashbuckle.AspNetCore": "7.3.1"
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
         },
         "runtime": {
           "AddressBook.dll": {}
@@ -537,7 +538,8 @@
         "dependencies": {
           "ModelLayer": "1.0.0",
           "RepositoryLayer": "1.0.0",
-          "Swashbuckle.AspNetCore": "7.3.1"
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
         },
         "runtime": {
           "BusinessLayer.dll": {
@@ -548,7 +550,8 @@
       },
       "ModelLayer/1.0.0": {
         "dependencies": {
-          "Swashbuckle.AspNetCore": "7.3.1"
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
         },
         "runtime": {
           "ModelLayer.dll": {
@@ -563,7 +566,8 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.36",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.36",
           "ModelLayer": "1.0.0",
-          "Swashbuckle.AspNetCore": "7.3.1"
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
         },
         "runtime": {
           "RepositoryLayer.dll": {

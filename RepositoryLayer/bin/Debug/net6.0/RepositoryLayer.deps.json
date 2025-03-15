@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.36",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.36",
           "ModelLayer": "1.0.0",
-          "Swashbuckle.AspNetCore": "7.3.1"
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
         },
         "runtime": {
           "RepositoryLayer.dll": {}
@@ -544,7 +545,8 @@
       },
       "ModelLayer/1.0.0": {
         "dependencies": {
-          "Swashbuckle.AspNetCore": "7.3.1"
+          "Swashbuckle.AspNetCore": "7.3.1",
+          "Swashbuckle.AspNetCore.Swagger": "7.3.1"
         },
         "runtime": {
           "ModelLayer.dll": {

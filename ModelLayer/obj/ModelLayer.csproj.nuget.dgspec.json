@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AddressBookGit\\ModelLayer\\ModelLayer.csproj": {}
+    "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj": {}
   },
   "projects": {
-    "D:\\AddressBookGit\\ModelLayer\\ModelLayer.csproj": {
+    "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AddressBookGit\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "D:\\AddressBookGit\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Suyash Kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\AddressBookGit\\ModelLayer\\obj\\",
+        "outputPath": "D:\\AddressBookGit new\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[7.3.1, )"
             }
