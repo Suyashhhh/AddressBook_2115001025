@@ -23,3 +23,16 @@ D:\AddressBookGit\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
 D:\AddressBookGit\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 D:\AddressBookGit\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 D:\AddressBookGit\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+D:\AddressBookGit new\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+D:\AddressBookGit new\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\AddressBookGit new\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+D:\AddressBookGit new\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll

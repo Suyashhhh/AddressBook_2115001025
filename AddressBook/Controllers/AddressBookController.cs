@@ -1,5 +1,8 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.Models;
+using AutoMapper;
+using RepositoryLayer.Entity;
 
 
 namespace AddressBook.Controllers
@@ -8,6 +11,12 @@ namespace AddressBook.Controllers
     [Route("[controller]")]
     public class AddressBookController : ControllerBase
     {
+        private readonly IMapper _mapper;
+        public AddressBookController(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
+
         [HttpGet]
         public IActionResult Get()
         {
@@ -33,25 +42,41 @@ namespace AddressBook.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post(RequestModel requestModel)
+        public IActionResult Post([FromBody] AddressBookModel addressBookModel)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var addressBookEntity = _mapper.Map<AddressBookEntity>(addressBookModel); //mapping through automapper here to the entity
+
             ResponseModel<string> responseModel = new ResponseModel<string>
             {
                 Success = true,
                 Message = "Contact added successfully",
-                Data = $"Name: {requestModel.key}, Phone: {requestModel.value}"
+                Data = $"Name: {addressBookEntity.Name}, Phone: {addressBookEntity.PhoneNumber}" //displaying through entity to check correct mapping
+                //as the values are being displayed from the Entity hence the AutoMapper is working correctly
             };
+
             return Ok(responseModel);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, RequestModel requestModel)
+        public IActionResult Put(int id, [FromBody] AddressBookModel addressBookModel)
         {
+            if (!ModelState.IsValid) // using fluent validation to check weather the Name or phone number is empty
+            {
+                return BadRequest(ModelState);
+            }
+
+            var addressBookEntity = _mapper.Map<AddressBookEntity>(addressBookModel);
+
             ResponseModel<string> responseModel = new ResponseModel<string>
             {
                 Success = true,
                 Message = $"Contact with ID {id} updated",
-                Data = $"Updated Name: {requestModel.key}, Updated Phone: {requestModel.value}"
+                Data = $"Updated Name: {addressBookEntity.Name}, Updated Phone: {addressBookEntity.PhoneNumber}"
             };
             return Ok(responseModel);
         }
