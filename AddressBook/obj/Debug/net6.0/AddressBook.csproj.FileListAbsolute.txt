@@ -208,6 +208,7 @@ D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Microsoft.IdentityModel.Proto
 D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\AddressBookGit new\AddressBook\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

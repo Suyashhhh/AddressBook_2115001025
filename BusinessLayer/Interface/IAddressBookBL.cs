@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using ModelLayer.Models;
 
 namespace BusinessLayer.Interface
 {
-    interface IAddressBookBL
+    public interface IAddressBookBL
     {
+        public ResponseAddressBookModel Add(RequestModel requestModel);
+        ResponseAddressBookModel Update(int id, ResponseAddressBookModel addressBookModel);
+        ResponseAddressBookModel GetById(int id);
+        IEnumerable<ResponseAddressBookModel> GetAll();
+        bool Delete(int id);
     }
 }

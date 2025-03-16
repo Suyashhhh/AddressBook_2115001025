@@ -1,95 +1,140 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.Models;
-using AutoMapper;
-using RepositoryLayer.Entity;
-
+using BusinessLayer.Interface;
+using Newtonsoft.Json;
 
 namespace AddressBook.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class AddressBookController : ControllerBase
     {
-        private readonly IMapper _mapper;
-        public AddressBookController(IMapper mapper)
+        private readonly IAddressBookBL _addressBookBL;
+
+        public AddressBookController(IAddressBookBL addressBookBL)
         {
-            _mapper = mapper;
+            _addressBookBL = addressBookBL;
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetAll()
         {
-            ResponseModel<string> responseModel = new ResponseModel<string>
+            var contacts = _addressBookBL.GetAll();
+
+            ResponseModel<IEnumerable<ResponseAddressBookModel>> responseModel = new ResponseModel<IEnumerable<ResponseAddressBookModel>>
             {
                 Success = true,
-                Message = "AddressBook - Fetch all contacts",
-                Data = "List of contacts displayed"
+                Message = "All contacts fetched successfully",
+                Data = contacts
             };
+
             return Ok(responseModel);
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            ResponseModel<string> responseModel = new ResponseModel<string>
+            var contact = _addressBookBL.GetById(id);
+
+            if (contact == null)
+            {
+                return NotFound(new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = $"Contact with ID {id} not found",
+                    Data = null
+                });
+            }
+
+            ResponseModel<ResponseAddressBookModel> responseModel = new ResponseModel<ResponseAddressBookModel>
             {
                 Success = true,
-                Message = $"Contact with ID {id} fetched",
-                Data = $"Contact Details for ID: {id}"
+                Message = $"Contact with ID {id} fetched successfully",
+                Data = contact
             };
+
             return Ok(responseModel);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] AddressBookModel addressBookModel)
+        public ActionResult<ResponseModel<ResponseAddressBookModel>> Add([FromBody] RequestModel requestModel)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new ResponseModel<object>
+                {
+                    Success = false,
+                    Message = "Validation failed.",
+                    Data = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage)
+                });
+            }
+
+            var addedContact = _addressBookBL.Add(requestModel);
+
+            return CreatedAtAction(nameof(GetById), new { id = addedContact.Id }, new ResponseModel<ResponseAddressBookModel>
+            {
+                Success = true,
+                Message = "Contact added successfully.",
+                Data = addedContact
+            });
+        }
+
+
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody] ResponseAddressBookModel addressBookModel)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var addressBookEntity = _mapper.Map<AddressBookEntity>(addressBookModel); //mapping through automapper here to the entity
+            var updatedContact = _addressBookBL.Update(id, addressBookModel);
 
-            ResponseModel<string> responseModel = new ResponseModel<string>
+            if (updatedContact == null)
             {
-                Success = true,
-                Message = "Contact added successfully",
-                Data = $"Name: {addressBookEntity.Name}, Phone: {addressBookEntity.PhoneNumber}" //displaying through entity to check correct mapping
-                //as the values are being displayed from the Entity hence the AutoMapper is working correctly
-            };
-
-            return Ok(responseModel);
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] AddressBookModel addressBookModel)
-        {
-            if (!ModelState.IsValid) // using fluent validation to check weather the Name or phone number is empty
-            {
-                return BadRequest(ModelState);
+                return NotFound(new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = $"Contact with ID {id} not found",
+                    Data = null
+                });
             }
 
-            var addressBookEntity = _mapper.Map<AddressBookEntity>(addressBookModel);
-
-            ResponseModel<string> responseModel = new ResponseModel<string>
+            ResponseModel<ResponseAddressBookModel> responseModel = new ResponseModel<ResponseAddressBookModel>
             {
                 Success = true,
-                Message = $"Contact with ID {id} updated",
-                Data = $"Updated Name: {addressBookEntity.Name}, Updated Phone: {addressBookEntity.PhoneNumber}"
+                Message = $"Contact with ID {id} updated successfully",
+                Data = updatedContact
             };
+
             return Ok(responseModel);
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
+            var isDeleted = _addressBookBL.Delete(id);
+
+            if (!isDeleted)
+            {
+                return NotFound(new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = $"Contact with ID {id} not found",
+                    Data = null
+                });
+            }
+
             ResponseModel<string> responseModel = new ResponseModel<string>
             {
                 Success = true,
                 Message = $"Contact with ID {id} deleted successfully",
                 Data = "Deletion successful"
             };
+
             return Ok(responseModel);
         }
     }

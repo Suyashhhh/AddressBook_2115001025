@@ -8,7 +8,7 @@ using ModelLayer.Models;
 
 namespace BusinessLayer.Services
 {
-    public class AddressBookValidatorBL : AbstractValidator<AddressBookModel>
+    public class AddressBookValidatorBL : AbstractValidator<ResponseAddressBookModel>
     {
         public AddressBookValidatorBL() // constructor
         {

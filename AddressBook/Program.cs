@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
 using FluentValidation.AspNetCore;
 using BusinessLayer.Services;
+using BusinessLayer.Interface;
+using RepositoryLayer.Interface;
+using RepositoryLayer.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +21,8 @@ builder.Services.AddControllers().AddFluentValidation(fv =>
 
 //auto mapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfileBL));
+builder.Services.AddScoped<IAddressBookBL, AddressBookBL>();
+builder.Services.AddScoped<IAddressBookRL, AddressBookRL>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
