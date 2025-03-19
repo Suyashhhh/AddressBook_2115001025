@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AddressBookGit new\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj": {
+    "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Suyash Kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\AddressBookGit new\\ModelLayer\\obj\\",
+        "outputPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,32 +49,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[11.11.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[7.3.1, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[7.3.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -95,14 +69,14 @@
         }
       }
     },
-    "D:\\AddressBookGit new\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AddressBookGit new\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "D:\\AddressBookGit new\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\Suyash Kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\AddressBookGit new\\RepositoryLayer\\obj\\",
+        "outputPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "D:\\AddressBookGit new\\ModelLayer\\ModelLayer.csproj"
+              "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj"
               }
             }
           }
@@ -145,18 +119,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[11.11.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.36, )"
@@ -164,10 +126,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.36, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[6.0.36, )"
             },
@@ -180,18 +138,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.36, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[7.3.1, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[7.3.1, )"
             }
           },
           "imports": [

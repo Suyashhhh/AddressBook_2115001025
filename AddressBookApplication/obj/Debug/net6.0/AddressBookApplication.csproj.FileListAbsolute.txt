@@ -1,0 +1,257 @@
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\appsettings.Development.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\appsettings.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.staticwebassets.endpoints.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.exe
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.deps.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.runtimeconfig.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.pdb
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Humanizer.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Collections.Immutable.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\BusinessLayer.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\RepositoryLayer.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\BusinessLayer.pdb
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.csproj.AssemblyReference.cache
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.AssemblyInfoInputs.cache
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.AssemblyInfo.cs
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.csproj.CoreCompileInputs.cache
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\scopedcss\bundle\AddressBookApplication.styles.css
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.build.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.development.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.AddressBookApplication.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.AddressBookApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.build.AddressBookApplication.props
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AddressBookApplication.props
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AddressBookApplication.props
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressB.3581B029.Up2Date
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\refint\AddressBookApplication.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.pdb
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.genruntimeconfig.cache
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\ref\AddressBookApplication.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dotnet Framework\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\appsettings.Development.json
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\appsettings.json
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.staticwebassets.endpoints.json
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.exe
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.deps.json
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.runtimeconfig.json
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.pdb
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Humanizer.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Collections.Immutable.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\BusinessLayer.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\RepositoryLayer.dll
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\BusinessLayer.pdb
+D:\testing\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.csproj.AssemblyReference.cache
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.AssemblyInfoInputs.cache
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.AssemblyInfo.cs
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.csproj.CoreCompileInputs.cache
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\scopedcss\bundle\AddressBookApplication.styles.css
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.build.json
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.development.json
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.AddressBookApplication.Microsoft.AspNetCore.StaticWebAssets.props
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.AddressBookApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.build.AddressBookApplication.props
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AddressBookApplication.props
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AddressBookApplication.props
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.pack.json
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressB.3581B029.Up2Date
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.dll
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\refint\AddressBookApplication.dll
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.pdb
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.genruntimeconfig.cache
+D:\testing\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\ref\AddressBookApplication.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.csproj.AssemblyReference.cache
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.AssemblyInfoInputs.cache
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.AssemblyInfo.cs
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.csproj.CoreCompileInputs.cache
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\refint\AddressBookApplication.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.pdb
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\appsettings.Development.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\appsettings.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.staticwebassets.endpoints.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.exe
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.deps.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.runtimeconfig.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\AddressBookApplication.pdb
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Humanizer.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Collections.Immutable.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\BusinessLayer.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\ModelLayer.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\RepositoryLayer.dll
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\BusinessLayer.pdb
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\ModelLayer.pdb
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\scopedcss\bundle\AddressBookApplication.styles.css
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.build.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.development.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.AddressBookApplication.Microsoft.AspNetCore.StaticWebAssets.props
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.AddressBookApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.build.AddressBookApplication.props
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AddressBookApplication.props
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AddressBookApplication.props
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.pack.json
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressB.3581B029.Up2Date
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\AddressBookApplication.genruntimeconfig.cache
+D:\testing\addressbooknew\AddressBookApplication\AddressBookApplication\obj\Debug\net6.0\ref\AddressBookApplication.dll

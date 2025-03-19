@@ -1,54 +1,41 @@
-﻿using Microsoft.EntityFrameworkCore;
-using RepositoryLayer.Context;
-using RepositoryLayer.Entity;
-using RepositoryLayer.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Context;
+using RepositoryLayer.Interface;
+using ModelLayer.Model;
 
 namespace RepositoryLayer.Service
 {
-    public class UserRL : IUserRL
+    public class UserRL:IUserRL
     {
-        private readonly AddressBookContext _context;
+        private readonly AppDbContext _context;
 
-        public UserRL(AddressBookContext context)
+        public UserRL(AppDbContext context)
         {
             _context = context;
         }
 
-        public UserEntity? GetUserByEmail(string email)
+        public async Task<User?> GetByEmailAsync(string email) =>
+            await _context.Users.SingleOrDefaultAsync(u => u.Email == email);
+
+        public async Task AddUserAsync(User user)
         {
-            try
-            {
-                return _context.Users.AsNoTracking().FirstOrDefault(u => u.Email == email);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"[GetUserByEmail] Error: {ex.Message}");
-                return null;
-            }
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
         }
 
-        public void AddUser(UserEntity user)
+        public async Task UpdatePasswordAsync(int userId, string newPassword)
         {
-            try
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
             {
-                _context.Users.Add(user);
-                _context.SaveChanges();
+                user.PasswordHash = newPassword;
+                await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"[AddUser] Error: {ex.Message}");
-            }
-        }
-
-        public void UpdateUser(UserEntity user)
-        {
-            _context.Users.Update(user);
-            _context.SaveChanges();
         }
     }
 }

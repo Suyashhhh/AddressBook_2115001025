@@ -1,69 +1,49 @@
-﻿using RepositoryLayer.Context;
-using RepositoryLayer.Entity;
-using RepositoryLayer.Interface;
-using Newtonsoft.Json;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.Context;
+using RepositoryLayer.Interface;
+using ModelLayer.Model;
 
-namespace RepositoryLayer.Services
+namespace RepositoryLayer.Service
 {
     public class AddressBookRL : IAddressBookRL
-    {
-        private readonly AddressBookContext _context;
 
-        public AddressBookRL(AddressBookContext context)
+    {
+        private readonly AppDbContext _context;
+
+        public AddressBookRL(AppDbContext context)
         {
             _context = context;
         }
 
-        public AddressBookEntity Add(AddressBookEntity addressBookEntity)
+        public async Task<IEnumerable<AddressBookEntry>> GetAllAsync() => await _context.AddressBookEntries.ToListAsync();
+
+        public async Task<AddressBookEntry?> GetByIdAsync(int id) => await _context.AddressBookEntries.FindAsync(id);
+
+        public async Task AddAsync(AddressBookEntry entry)
         {
-            // Check if the UserId exists in the Users table
-            //var userExists = _context.Users.Any(u => u.UserId == addressBookEntity.UserId);
-
-            // Add the address book entry
-            _context.AddressBookEntries.Add(addressBookEntity);
-            _context.SaveChanges();
-
-            return addressBookEntity;
+            await _context.AddressBookEntries.AddAsync(entry);
+            await _context.SaveChangesAsync();
         }
 
-
-        public AddressBookEntity Update(int id, AddressBookEntity addressBookEntity)
+        public async Task UpdateAsync(AddressBookEntry entry)
         {
-            var existingEntity = _context.AddressBookEntries.FirstOrDefault(c => c.Id == id);
-            if (existingEntity != null)
+            _context.AddressBookEntries.Update(entry);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var entry = await GetByIdAsync(id);
+            if (entry != null)
             {
-                existingEntity.Name = addressBookEntity.Name;
-                existingEntity.PhoneNumber = addressBookEntity.PhoneNumber;
-                existingEntity.Email = addressBookEntity.Email;
-                existingEntity.Address = addressBookEntity.Address;
-
-                _context.AddressBookEntries.Update(existingEntity);
-                _context.SaveChanges();
+                _context.AddressBookEntries.Remove(entry);
+                await _context.SaveChangesAsync();
             }
-            return existingEntity;
-        }
-
-        public AddressBookEntity GetById(int id)
-        {
-            return _context.AddressBookEntries.Find(id);
-        }
-
-        public IEnumerable<AddressBookEntity> GetAll()
-        {
-            return _context.AddressBookEntries.ToList();
-        }
-
-        public bool Delete(int id)
-        {
-            var entity = _context.AddressBookEntries.Find(id);
-            if (entity != null)
-            {
-                _context.AddressBookEntries.Remove(entity);
-                _context.SaveChanges();
-                return true;
-            }
-            return false;
         }
     }
 }
