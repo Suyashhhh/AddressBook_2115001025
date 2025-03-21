@@ -1,6 +1,7 @@
 ﻿using System.Text;
 using BusinessLayer.Helper;
 using BusinessLayer.Interface;
+using BusinessLayer.RabbitMQ;
 using BusinessLayer.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -8,19 +9,38 @@ using Microsoft.IdentityModel.Tokens;
 using RepositoryLayer.Context;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Load Redis Settings
+var redisSettings = builder.Configuration.GetSection("RedisCacheSettings");
+bool isRedisEnabled = redisSettings.GetValue<bool>("Enabled");
+string redisConnection = redisSettings.GetValue<string>("ConnectionString");
 
+// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddScoped<IAddressBookBL, AddressBookBL>();
 builder.Services.AddScoped<IAddressBookRL, AddressBookRL>();
 builder.Services.AddScoped<IUserBL, UserBL>();
 builder.Services.AddScoped<IUserRL, UserRL>();
 
+// Register RabbitMQ (Producer & Consumer)
+builder.Services.AddSingleton<RabbitMQProducer>();
+builder.Services.AddHostedService<RabbitMQConsumer>();
 
+// Add Redis Cache (Fixed Duplicate)
+if (isRedisEnabled)
+{
+    builder.Services.AddStackExchangeRedisCache(options =>
+    {
+        options.Configuration = redisConnection;
+        options.InstanceName = "AddressBookCache";
+    });
 
+    builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(redisConnection));
+    builder.Services.AddSingleton<IRedisCacheService, RedisCacheService>();
+}
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -87,20 +107,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
 // Configure the HTTP request pipeline.
-
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

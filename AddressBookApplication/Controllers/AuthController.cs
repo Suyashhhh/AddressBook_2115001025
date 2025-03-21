@@ -2,11 +2,12 @@
 using System.Security.Claims;
 using BusinessLayer.Helper;
 using BusinessLayer.Interface;
+using BusinessLayer.RabbitMQ;
 using BusinessLayer.Service;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.DTO;
 using ModelLayer.Model;
+using System.Text.Json;
 
 namespace AddressBookApplication.Controllers
 {
@@ -18,7 +19,7 @@ namespace AddressBookApplication.Controllers
         private readonly JwtHelper _jwtHelper;
         private readonly EmailService _emailService;
         private readonly ILogger<AuthController> _logger;
-
+        private readonly RabbitMQProducer _rabbitMQProducer;
 
 
         public AuthController(IUserBL userBL, EmailService emailService, JwtHelper jwtHelper, ILogger<AuthController> logger)
@@ -27,6 +28,7 @@ namespace AddressBookApplication.Controllers
             _emailService = emailService;
             _jwtHelper = jwtHelper;
             _logger = logger;
+            _rabbitMQProducer = new RabbitMQProducer();
         }
 
         // User Registration
@@ -39,8 +41,12 @@ namespace AddressBookApplication.Controllers
             var response = await _userBL.RegisterUserAsync(userDto);
             if (!response.Success)
                 return BadRequest(response);
+            string message = JsonSerializer.Serialize(userDto);
+            _rabbitMQProducer.PublishMessage("UserQueue", message);
 
-            return Ok(response);
+            return Ok(new { Success = true, Message = "User registered successfully and sent to RabbitMQ" });
+
+
         }
 
         // User Login

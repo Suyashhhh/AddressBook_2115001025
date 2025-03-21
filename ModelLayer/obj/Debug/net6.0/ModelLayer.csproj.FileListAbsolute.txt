@@ -9,3 +9,16 @@ D:\testing\addressbooknew\AddressBookApplication\ModelLayer\obj\Debug\net6.0\Mod
 D:\testing\addressbooknew\AddressBookApplication\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 D:\testing\addressbooknew\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 D:\testing\addressbooknew\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+D:\testing\addressbooknew\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+D:\testing\addbookrabbit\AddressBookApplication\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll

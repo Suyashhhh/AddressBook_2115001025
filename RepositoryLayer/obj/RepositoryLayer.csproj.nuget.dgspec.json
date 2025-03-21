@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "D:\\testing\\addbookrabbit\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj": {
+    "D:\\testing\\addbookrabbit\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "D:\\testing\\addbookrabbit\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "D:\\testing\\addbookrabbit\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Suyash Kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\obj\\",
+        "outputPath": "D:\\testing\\addbookrabbit\\AddressBookApplication\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.31, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +87,14 @@
         }
       }
     },
-    "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "D:\\testing\\addbookrabbit\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "D:\\testing\\addbookrabbit\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "D:\\testing\\addbookrabbit\\AddressBookApplication\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\Suyash Kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\RepositoryLayer\\obj\\",
+        "outputPath": "D:\\testing\\addbookrabbit\\AddressBookApplication\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +115,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "D:\\testing\\addressbooknew\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj"
+              "D:\\testing\\addbookrabbit\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "D:\\testing\\addbookrabbit\\AddressBookApplication\\ModelLayer\\ModelLayer.csproj"
               }
             }
           }
@@ -138,6 +156,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.36, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.31, )"
             }
           },
           "imports": [

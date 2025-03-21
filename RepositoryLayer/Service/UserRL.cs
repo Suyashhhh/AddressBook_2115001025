@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
-using RepositoryLayer.Interface;
 using ModelLayer.Model;
 
 namespace RepositoryLayer.Service
 {
-    public class UserRL:IUserRL
+    public class UserRL : IUserRL
     {
         private readonly AppDbContext _context;
 
@@ -21,6 +15,9 @@ namespace RepositoryLayer.Service
 
         public async Task<User?> GetByEmailAsync(string email) =>
             await _context.Users.SingleOrDefaultAsync(u => u.Email == email);
+
+        public async Task<User?> GetByIdAsync(int userId) => 
+            await _context.Users.FindAsync(userId);
 
         public async Task AddUserAsync(User user)
         {

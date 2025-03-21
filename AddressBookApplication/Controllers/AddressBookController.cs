@@ -2,9 +2,10 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.DTO;
-using RepositoryLayer.Interface;
 using ModelLayer.Model;
 using BusinessLayer.Interface;
+using BusinessLayer.RabbitMQ;
+using System.Text.Json;
 
 namespace AddressBookApplication.Controllers
 {
@@ -14,10 +15,12 @@ namespace AddressBookApplication.Controllers
     public class AddressBookController : ControllerBase
     {
         private readonly IAddressBookBL _addressBookBL;
+        private readonly RabbitMQProducer _rabbitMQProducer;
 
         public AddressBookController(IAddressBookBL addressBookService)
         {
             _addressBookBL = addressBookService;
+            _rabbitMQProducer = new RabbitMQProducer();
         }
 
         private int GetAuthenticatedUserId()
@@ -76,7 +79,11 @@ namespace AddressBookApplication.Controllers
             {
                 int userId = GetAuthenticatedUserId();
                 await _addressBookBL.AddAsync(dto);
-                return CreatedAtAction(nameof(GetAllContacts), new ApiResponse<string>(true, "Contact added successfully", null));
+
+                string message = JsonSerializer.Serialize(dto);
+                _rabbitMQProducer.PublishMessage("ContactQueue", message);
+
+                return CreatedAtAction(nameof(GetAllContacts), new ApiResponse<string>(true, "Contact added successfully and sent to RabbitMQ", null));
             }
             catch (UnauthorizedAccessException ex)
             {
